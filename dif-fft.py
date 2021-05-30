@@ -36,8 +36,10 @@ def DIF_radix2(N, s):
     return r1 + r2
 
 
-DIF_FFT(8, [1, 1, -1, -1, -1, 1, 1, -1])
+print(DIF_FFT(8, [1, 1, -1, -1, -1, 1, 1, -1]))
 
 r = DIF_radix2(8, [1, -1, -1, -1, 1, 1, 1, -1])
 # Don't forget to rearrange it!!!!
 # 0, 4, 2, 6, 1, 5, 3, 7
+print(r)
+
